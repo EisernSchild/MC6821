@@ -1,20 +1,21 @@
 --                                                                           --
-# IC6821
+#  S Y N T H E Z I A B L E    I/O Port   C O R E
 --                                                                           --
-www.opencores.org - 16 december 2005
-This IP core adheres to the GNU public license.
+www.OpenCores.Org - May 2004
+This core adheres to the GNU public license
 
 # VHDL model of the MC6821 Peripheral Interface Adapter                                     
                                                                            
-## emulating the IC6821
-One day my partern says lets make this old board smaller. But a lot of IC6821. So emulate them into an FPGA. So i developed the code in VHDL. The 6821 is a peripheral from MOTOROLA. It has two bidir ports PA,PB and four interrupt inputs, two of them also can be configured for handshake.
-## Not time to write yet.
-- feature1
-- feature1.1
--feature1.2
--feature2
-## Status early yet
--- On 16 december 2005 i finished the coding and some basing simulation using the QUARTUS web edition.
-FILE: VHDL6821.vhd
-FILE: VHDL6821.vhd
-DESCRIPTION: 
+## File name      : 
+	pia6821.vhd
+
+## Purpose        : 
+	Implements 2 x 8 bit parallel I/O ports
+	with programmable data direction registers
+            
+## Dependencies   : 
+	ieee.Std_Logic_1164
+	ieee.std_logic_unsigned
+
+## Author         : 
+	John E. Kent      
